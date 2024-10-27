@@ -1,0 +1,142 @@
+.bolo_no_pote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 150px 150px;
+}
+
+.doces_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  max-width: 60%;
+  justify-content: center;
+}
+
+.bonopote {
+  font-size: 5rem;
+  color: #FAEFD6;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
+  -moz-box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
+  box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 1.3rem;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  flex: 1 1 calc(33.333% - 30px);
+  max-width: calc(33.333% - 30px);
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.card h1 {
+  font-size: 2.5rem;
+  color: #5D3A2E;
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: -0.4rem;
+}
+
+.card_links {
+  display: flex;
+  flex-direction: column;
+  text-wrap: pretty;
+}
+
+.card_produto_descricao {
+  text-align: center;
+}
+
+.add_cart {
+  padding: 10px 20px;
+  background-color: #F9AAC0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.add_cart::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, #5D3A2E 0%, #5D3A2E 50%, transparent 50%, transparent 100%);
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.add_cart:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.add_cart:hover {
+  color: #fff;
+}
+
+.add_cart span {
+  position: relative;
+  z-index: 2;
+}
+  
+  .bombom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #706DC3;
+    padding: 150px 0;
+    gap: 4rem;
+  }
+  
+  .brownie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #65A7FF;
+    padding: 150px 0;
+    gap: 4rem;
+  }
+  
+  .barra_recheada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #79B370;
+    padding: 150px 0;
+    gap: 4rem;
+  }
+  
+  .copo_felicidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7BD0B6;
+    padding: 150px 0;
+    gap: 4rem;
+  }  
