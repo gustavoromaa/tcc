@@ -36,10 +36,12 @@ export default function Header() {
 
             <NavLink href="/">
                 <div className="logo">
-                    <Image
-                        src={logo}
-                        alt="logo"
+                    <div className="imgs">
+                    <Image 
+                    src={logo} 
+                    alt="logo"
                     />
+                    </div>
                 </div>
             </NavLink>
 

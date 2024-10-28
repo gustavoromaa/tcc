@@ -13,11 +13,11 @@ export default function Footer() {
                   <li><a href="https://wa.me/4197336348" target="_blank"><FaWhatsapp/></a></li>
               </ul>
 
-              <ul className="menu">
+              {/* <ul className="menu">
                   <li><a href="#">Produtos</a></li>
                   <li><a href="#">Sobre</a></li>
                   <li><a href="#">Desenvolvedores</a></li>
-              </ul>
+              </ul> */}
 
               <p>&copy; 2024 Dom Docciê</p>
           </footer>

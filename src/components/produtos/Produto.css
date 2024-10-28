@@ -25,41 +25,53 @@
   background-color: #fff;
   padding: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  -webkit-box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
-  -moz-box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
-  box-shadow: 0px 10px 36px -12px rgba(230, 135, 162, 1);
-  border-radius: 20px;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 36px -12px rgb(105, 104, 105);
+  border-radius: 20px;
   gap: 1.3rem;
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   flex: 1 1 calc(33.333% - 30px);
   max-width: calc(33.333% - 30px);
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.1);
 }
 
 .card h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #5D3A2E;
   text-align: center;
-}
-
-.card h2 {
-  margin-top: -0.4rem;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  line-height: 1em;
+  margin: 0;
 }
 
 .card_links {
   display: flex;
   flex-direction: column;
-  text-wrap: pretty;
+  gap: 1rem;
 }
 
 .card_produto_descricao {
+  margin-top: -0.4rem;
+  font-size: 1.5rem;
   text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+  border-radius: 10px;
 }
 
 .add_cart {
@@ -72,6 +84,7 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
+  cursor: pointer;
 }
 
 .add_cart::before {
@@ -100,43 +113,3 @@
   position: relative;
   z-index: 2;
 }
-  
-  .bombom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #706DC3;
-    padding: 150px 0;
-    gap: 4rem;
-  }
-  
-  .brownie {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #65A7FF;
-    padding: 150px 0;
-    gap: 4rem;
-  }
-  
-  .barra_recheada {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #79B370;
-    padding: 150px 0;
-    gap: 4rem;
-  }
-  
-  .copo_felicidade {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #7BD0B6;
-    padding: 150px 0;
-    gap: 4rem;
-  }  

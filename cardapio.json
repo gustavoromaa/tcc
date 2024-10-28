@@ -41,76 +41,83 @@
         },
         {
           "id": 6,
-          "nome": "Prestigio/Beijinho",
+          "nome": "Prestigio",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_prestigio"
         },
         {
           "id": 7,
+          "nome": "Beijinho",
+          "descricao": "Chocolate branco com bombom ouro branco",
+          "alt": "Bolo no pote",
+          "imagem": "bp_prestigio"
+        },
+        {
+          "id": 8,
           "nome": "Maracuja",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_maracuja"
         },
         {
-          "id": 8,
+          "id": 9,
           "nome": "Amendoim/Shot",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_amendoim"
         },
         {
-          "id": 9,
+          "id": 10,
           "nome": "Ferrero Rocher",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_ferrerorocher"
         },
         {
-          "id": 10,
+          "id": 11,
           "nome": "Paçoca",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_pacoca"
         },
         {
-          "id": 11,
+          "id": 12,
           "nome": "Oreo",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_oreo"
         },
         {
-          "id": 12,
+          "id": 13,
           "nome": "Dois Amores",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_doisAmores"
         },
         {
-          "id": 13,
+          "id": 14,
           "nome": "Bis Oreo",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_oreo"
         },
         {
-          "id": 14,
+          "id": 15,
           "nome": "Kit Kat",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_kitkat"
         },
         {
-          "id": 15,
+          "id": 16,
           "nome": "Laka",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_laka"
         },
         {
-          "id": 16,
+          "id": 17,
           "nome": "Abacaxi c/ Coco",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
@@ -123,56 +130,56 @@
       "cor_principal": "#706DC3",
       "sabores": [
         {
-          "id": 17,
+          "id": 18,
           "nome": "Brigadeiro",
           "descricao": "Chocolate ao leite com granulado",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 18,
+          "id": 19,
           "nome": "Brigadeiro c/ Morango",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 19,
+          "id": 20,
           "nome": "Brigadeiro Branco c/ Uva",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 20,
+          "id": 21,
           "nome": "Prestigio/Beijinho",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 21,
+          "id": 22,
           "nome": "Maracuja",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 22,
+          "id": 23,
           "nome": "Amendoim",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 23,
+          "id": 24,
           "nome": "Ferrero Rocher",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
         },
         {
-          "id": 24,
+          "id": 25,
           "nome": "Dois Amores",
           "descricao": "Chocolate branco com bombom ouro branco",
           "alt": "Bolo no pote",
@@ -185,11 +192,50 @@
       "cor_principal": "#65A7FF",
       "sabores": [
         {
-          "id": 25,
+          "id": 26,
           "nome": "Brownie",
           "descricao": "Chocolate ao leite com granulado",
           "alt": "Bolo no pote",
           "imagem": "bp_chocolate"
+        }
+      ]
+    },
+    "barraRecheada": {
+      "titulo": "Barra Recheada",
+      "cor_principal": "#79B370",
+      "sabores": [
+        {
+          "id": 27,
+          "nome": "Barra",
+          "descricao": "banana",
+          "alt": "Bolo no pote",
+          "imagem": "bp_kitkat"
+        }
+      ]
+    },
+    "copoDaFelicidade": {
+      "titulo": "Copo da Felicidade",
+      "cor_principal": "#7BD0B6",
+      "sabores": [
+        {
+          "id": 28,
+          "nome": "Copo da Felicidade",
+          "descricao": "Copo da Felicidade",
+          "alt": "Copo da Felicidade",
+          "imagem": "bp_oreo"
+        }
+      ]
+    },
+    "sliceCake": {
+      "titulo": "Slice Cake",
+      "cor_principal": "#E0794C",
+      "sabores": [
+        {
+          "id": 28,
+          "nome": "Slice Cake",
+          "descricao": "Slice Cake",
+          "alt": "Slice Cake",
+          "imagem": "bp_pacoca"
         }
       ]
     }

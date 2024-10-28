@@ -42,9 +42,6 @@ body {
   scrollbar-width: thin;
   scrollbar-color: var(--rosa-claro) var(--background);
 }
-body {
-  font-family: "Poppins", sans-serif;
-}
 
 @layer utilities {
   .text-balance {
